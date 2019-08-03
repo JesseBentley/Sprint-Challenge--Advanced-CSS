@@ -1,1 +1,35 @@
 // Mixins Here
+.btn-generator(@font-size){
+    font-size: @font-size;
+    text-align: center;
+    width: 30%;
+    color: @btn-font-color;
+    background-color: @btn-bg-color;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 8px;
+
+    @media @phone {
+        width: 100%;
+    }
+}
+
+.navigation-mix{
+    border: 1px solid;
+    border-color: @nav-border;
+    font-family: @nav-font;
+    background-color: @nav-bg;
+}    
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.animation(){
+    animation-name: hover;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
