@@ -2,7 +2,7 @@
 
 .home {
 
-  .banner{
+  .banner {
     width: 100%;
     border-radius: 4px;
     height: auto;
@@ -16,24 +16,24 @@
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
-  
+
   }
 
   .space-images {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
-    .sky{
-      @media @phone{
+
+    .sky {
+      @media @phone {
         display: none;
       }
     }
 
-    .launch{
-      @media @phone{
+    .launch {
+      @media @phone {
         display: none;
       }
     }
@@ -43,8 +43,8 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-      
-      @media @phone{
+
+      @media @phone {
         width: 100%;
         height: auto;
       }
@@ -68,14 +68,16 @@
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
     .flex-center;
-    @media @phone{
+
+    @media @phone {
       flex-direction: column-reverse;
       padding: 15px;
     }
 
     .walk-text {
       width: 50%;
-      @media @phone{
+
+      @media @phone {
         width: 100%;
       }
 
@@ -90,17 +92,22 @@
       .btn {
         .btn-generator(1.9rem);
       }
+      
+      .btn:hover{
+        background-color: @btn-bg-color;
+        color: @btn-font-color;
+      }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
-      @media @phone{
+
+      @media @phone {
         width: 100%;
         height: auto;
       }
-      
+
       img {
         width: 100%;
         height: auto;
@@ -108,4 +115,6 @@
       }
     }
   }
-}// home
+}
+
+// home

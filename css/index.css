@@ -5,8 +5,8 @@
     border-radius: 10px;
   }
   to {
-    background-color: dodgerblue;
-    color: white;
+    background-color: black;
+    color: #F6F6F6;
     border-radius: 10px;
   }
 }
@@ -321,6 +321,10 @@ footer {
   .home .walk .walk-text .btn {
     width: 100%;
   }
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #22283A;
+  color: white;
 }
 .home .walk .walk-img {
   width: 46%;

@@ -41,7 +41,8 @@ Edit this document to include your answers after each question. Make sure to lea
 -Mobile first is when you start by building the mobile website and then program it to adapt to desktop. Desktop first is vise versa
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-It allows us to use REM as a 10 pixel increment. We can then use a decimle and break it down even further. Using the perecentage our sizes are based on the inherent browser size instead of setting our own preset sizes.
+
+-It allows us to use REM as a 10 pixel increment. We can then use a decimle and break it down even further. Using the perecentage our sizes are based on the inherent browser size instead of setting our own preset sizes.
 
 4. How would you describe preprocessing to someone new to CSS?
 
