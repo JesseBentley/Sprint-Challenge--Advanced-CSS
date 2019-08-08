@@ -1,1 +1,40 @@
 // Navigation code here
+.navigation {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    .navigation-mix();
+
+    a:hover {
+        .animation();
+        padding: 10px;
+    }
+
+    .nav {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        h1 {
+            .flex-center;
+            width: 100%;
+            font-family: @nav-font;
+            font-size: 4.4rem;
+            margin-top: 1%;
+        }
+
+        a {
+            font-family: @nav-font;
+            font-size: 1.8rem;
+            justify-content: space-evenly;
+            text-decoration: none;
+            padding-left: 2%;
+            padding-right: 2%;
+            margin-bottom: 1%;
+            margin-top: 2%;
+            color: black;
+        }
+
+    }
+}
